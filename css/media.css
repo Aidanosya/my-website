@@ -1,0 +1,206 @@
+@media (max-width: 1024px) {
+ .work {
+width: 750px;
+margin: 60px auto;
+background: #000CFF;
+padding: 20px;
+border-radius: 5px;
+}
+}
+
+@media (max-width: 900px) {
+.header_promo{
+gap: 10px;
+}
+.header_promo-photo {
+width: 300px;
+}
+#about_me {
+background-color: #000CFF;
+color: #FFFFFF;
+font-weight: 400;
+font-size: 16px;
+}
+.skills_tehnology{
+margin:0;
+}
+.skills_list {
+width: 300px;
+font-size: 14px;
+}
+.skills_photo {
+width: 350px;
+}
+.work {
+width: auto;
+margin: 30px auto;
+}
+.portfolio {
+padding: 20px;
+margin-bottom: 70px;
+}
+.portfolio_item img {
+width: 500px;
+box-shadow: 0 0 5px;
+}
+.footer{
+  font-weight: 500;
+}
+}
+
+@media (max-width: 800px) {
+.logo-img {
+width: 45px;
+}
+.nav-list{
+font-size: 15px;
+font-weight: 400;
+padding-bottom: 12px;
+}
+.header_promo-textcontainer {
+width: 400px;
+text-align: center;
+padding-top: 90px;
+font-size: 15px;
+}
+.header_promo-photo {
+width: 250px;
+}
+.about_me-info {
+display: flex;
+flex-direction: column-reverse;
+}
+#about_me {
+display: flex;
+flex-flow: column;
+align-items: center;
+}
+.info-textcontainer {
+width: 600px;
+margin-top: 0;
+}
+.education_photo{
+  display: none;
+}
+.education-textcontainer {
+width: 580px;
+margin:0 0 70px 0;
+text-align: center;
+}
+.info_photo {
+width: 500px;
+height: 350px;
+margin: 30px;
+}
+.skills_title{
+  margin-top: 0;
+}
+.skills_photo {
+width: 300px;
+height: 300px;
+}
+.work_title{
+margin-bottom: 25px;
+}
+.job {
+margin-bottom: 10px;
+padding: 5px;
+border-radius: 8px;
+box-shadow: 0 0 5px;
+}
+}
+
+@media (max-width: 700px) {
+.work {
+width: auto;
+margin: 0 auto;
+}
+.nav-list {
+display: flex;
+flex-flow: column;
+align-items: flex-start;
+font-size: 12px;
+padding: 5px;
+}
+.logo-img {
+width: 110px;
+}
+}
+
+@media (max-width: 660px) {
+.header_promo {
+gap: 0;
+margin: 30px 0 30px 0;
+}
+.about_me-info{
+margin-top: 10px;
+gap: 10px;
+font-size: 12px;
+}
+.about_me-education{
+font-size: 12px;
+}
+.skills_title{
+font-size: 16px;
+}
+.info-textcontainer{
+  width: 378px;
+}
+.education-textcontainer {
+width: 380px;
+margin: 0 0 70px 0;
+text-align: center;
+}
+.portfolio_item img {
+width: 350px;
+box-shadow: 0 0 5px;
+}
+.info_photo{
+width: auto;
+height: auto;
+}
+.logo-footer {
+  display: none;
+}
+}
+
+@media (max-width: 500px) {
+.header_promo-textcontainer {
+width: 200px;
+padding-top: 30px;
+font-size: 12px;
+}
+.skills_tehnology {
+display: flex;
+flex-direction: column-reverse;
+margin: 0;
+}
+.skills_photo {
+width: 300px;
+height: auto;
+}
+.job-img {
+width: 50px;
+height: 50px;
+margin-right: 10px;
+}
+.job-title {
+font-size: 15px;
+}
+.job-company, .job-dates {
+font-size: 12px;
+margin-top: 0;
+}
+.info-textcontainer {
+width: 300px;
+}
+.education-textcontainer {
+width: 300px;
+margin: 0 0 30px 0;
+text-align: left;
+}
+.footer {
+font-size: 12px;
+font-weight: 400;
+}
+}
